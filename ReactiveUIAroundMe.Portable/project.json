@@ -1,0 +1,23 @@
+﻿{
+  "dependencies": {
+    "ExifLib.PCL": "1.0.1",
+    "Microsoft.Bcl": "1.1.10",
+    "Microsoft.Bcl.Build": "1.0.21",
+    "Microsoft.Bcl.Compression": "3.9.85",
+    "Microsoft.Net.Http": "2.2.29",
+    "Newtonsoft.Json": "10.0.2",
+    "reactiveui": "7.4.0",
+    "reactiveui-core": "7.4.0",
+    "Splat": "1.4.0",
+    "SQLite.Net.Async-PCL": "3.1.1",
+    "SQLite.Net.Core-PCL": "3.1.1",
+    "Rx-Core": "2.2.5",
+    "Rx-Interfaces": "2.2.5",
+    "Rx-Linq": "2.2.5",
+    "Rx-Main": "2.2.5",
+    "Rx-PlatformServices": "2.2.5",
+  },
+  "frameworks": {
+    ".NETPortable,Version=v4.5,Profile=Profile259": {}
+  }
+}

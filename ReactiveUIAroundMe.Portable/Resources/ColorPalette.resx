@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+
+	<data name="Blue" xml:space="preserve">
+		<value>#0C3F8F</value>
+	</data>
+	<data name="Green" xml:space="preserve">
+		<value>#93C01F</value>
+	</data>
+	<data name="Red" xml:space="preserve">
+		<value>#B40610</value>
+	</data>
+	<data name="DarkGray1" xml:space="preserve">
+		<value>#696969</value>
+	</data>
+	<data name="DarkGray2" xml:space="preserve">
+		<value>#3C3C3B</value>
+	</data>
+	<data name="GradientStroke1" xml:space="preserve">
+		<value>#FFFFFF</value>
+	</data>
+	<data name="GradientStroke2" xml:space="preserve">
+		<value>#E6E6E6</value>
+	</data>
+	<data name="GradientStroke3" xml:space="preserve">
+		<value>#CCCCCC</value>
+	</data>
+	<data name="Maroon" xml:space="preserve">
+        <value>#b56270</value>
+    </data>
+	<data name="Transparent" xml:space="preserve">
+		<value>Transparent</value>
+	</data>
+</root>

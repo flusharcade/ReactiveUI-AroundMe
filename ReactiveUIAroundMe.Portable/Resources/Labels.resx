@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+
+	<!-- titles -->
+	<data name="ConnectedTitle" xml:space="preserve">
+		<value>Connected</value>
+	</data>
+
+	<data name="NotConnectedTitle" xml:space="preserve">
+		<value>Not Connected</value>
+	</data>
+
+	<!-- messages -->
+	<data name="AuthExceptionMessage" xml:space="preserve">
+		<value>Invalid login credentials.</value>
+	</data>
+	<data name="ConnectionExceptionMessage" xml:space="preserve">
+		<value>Connectivitiy issue.</value>
+	</data>
+</root>

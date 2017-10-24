@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{599CB992-E1EC-4DA7-ACBA-083A7FCECAD6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ReactiveUIAroundMe.Portable</RootNamespace>
+    <AssemblyName>ReactiveUIAroundMe.Portable</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <TargetFrameworkProfile>Profile259</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;MAC;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Windws|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Windws\</OutputPath>
+    <DefineConstants>DEBUG;MAC;</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'iOS Release|AnyCPU'">
+    <OutputPath>bin\iOS Release\</OutputPath>
+    <Optimize>true</Optimize>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Device\ISettings.cs" />
+    <Compile Include="Device\IUserDefaults.cs" />
+    <Compile Include="Extensions\ReactiveUIExtensions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Enums\PageNames.cs" />
+    <Compile Include="Resources\Labels.Designer.cs">
+      <DependentUpon>Labels.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="UI\DataChange.cs" />
+    <Compile Include="UI\ScrollChange.cs" />
+    <Compile Include="MVVM\ObservableObject.cs" />
+    <Compile Include="Resources\Config.Designer.cs">
+      <DependentUpon>Config.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ViewModels\ViewModelBase.cs" />
+    <Compile Include="Factories\HistoricalItemViewModelFactory.cs" />
+    <Compile Include="Factories\PlayerItemViewModelFactory.cs" />
+    <Compile Include="ViewModels\SuperAdminPageViewModel.cs" />
+    <Compile Include="Resources\ColorPalette.Designer.cs">
+      <DependentUpon>ColorPalette.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Common\PrefillData.cs" />
+    <Compile Include="Common\TypeSwitch.cs" />
+    <Compile Include="Models\Match.cs" />
+    <Compile Include="WebServices\Contracts\BaseContract.cs" />
+    <Compile Include="WebServices\Contracts\Auth\AuthContract.cs" />
+    <Compile Include="WebServices\WebServiceControllerBase.cs" />
+    <Compile Include="WebServices\WebServiceController.cs" />
+    <Compile Include="WebServices\IWebServiceErrorHandler.cs" />
+    <Compile Include="WebServices\ErrorCodes.cs" />
+    <Compile Include="WebServices\AuthorizationExpiredException.cs" />
+    <Compile Include="Threading\AsyncLock.cs" />
+    <Compile Include="Threading\AsyncSemaphore.cs" />
+    <Compile Include="Logging\ILogger.cs" />
+    <Compile Include="Data\AuthenticationException.cs" />
+    <Compile Include="Data\BaseException.cs" />
+    <Compile Include="Data\CompressedHttpClient.cs" />
+    <Compile Include="Data\ConnectionException.cs" />
+    <Compile Include="ViewModels\LoginPageViewModel.cs" />
+    <Compile Include="Device\IDevice.cs" />
+    <Compile Include="Common\ApplicationStateHandler.cs" />
+    <Compile Include="Common\ImagePathsAndColors.cs" />
+    <Compile Include="Common\IOrientationHandler.cs" />
+    <Compile Include="Common\DetailParameters.cs" />
+    <Compile Include="Enums\MoveTypes.cs" />
+    <Compile Include="Common\IPathLocator.cs" />
+    <Compile Include="Enums\PlayerPosition.cs" />
+    <Compile Include="Categories\PositionDetails.cs" />
+    <Compile Include="DataAccess\StorableKeys.cs" />
+    <Compile Include="DataAccess\Storable\ApplicationStateStorable.cs" />
+    <Compile Include="DataAccess\Storable\IStorable.cs" />
+    <Compile Include="DataAccess\Storable\IdentityStorable.cs" />
+    <Compile Include="DataAccess\Storable\StorableExtensions.cs" />
+    <Compile Include="DataAccess\Storage\ISQLiteSetup.cs" />
+    <Compile Include="Common\ApplicationUpdatedArgs.cs" />
+    <Compile Include="DataAccess\Storage\ISQLiteStorage.cs" />
+    <Compile Include="Enums\StateType.cs" />
+    <Compile Include="Threading\ExclusiveSection.cs" />
+    <Compile Include="Extensions\ObservableExtensions.cs" />
+    <Compile Include="Extensions\ListExtensions.cs" />
+    <Compile Include="Common\ObservableRangeCollection.cs" />
+    <Compile Include="Enums\TeamSubmissionStatus.cs" />
+    <Compile Include="Enums\ListSetStatus.cs" />
+    <Compile Include="Categories\TeamSubmissions.cs" />
+    <Compile Include="ViewModels\HomePageViewModel.cs" />
+    <Compile Include="ViewModels\TetrixPageViewModelBase.cs" />
+    <Compile Include="ViewModels\TetrixViewModelBase.cs" />
+    <Compile Include="ViewModels\SelectableViewModelBase.cs" />
+    <Compile Include="Enums\LayoutType.cs" />
+    <Compile Include="ViewModels\TileViewModel.cs" />
+    <Compile Include="ViewModels\SearchResultsPageViewModel.cs" />
+    <Compile Include="Location\ILocationManager.cs" />
+    <Compile Include="Location\Location.cs" />
+    <Compile Include="Location\LocationExtensions.cs" />
+    <Compile Include="Location\LocationUpdatedEventArgs.cs" />
+    <Compile Include="Enums\Orientation.cs" />
+    <Compile Include="ViewModels\SearchResultViewModel.cs" />
+    <Compile Include="WebServices\Contracts\TokenContract.cs" />
+    <Compile Include="WebServices\Contracts\Anonymous\ExchangeListItemContract.cs" />
+    <Compile Include="ViewModels\ExchangeListItemViewModel.cs" />
+    <Compile Include="ViewModels\MapPageViewModel.cs" />
+    <Compile Include="ViewModels\FlyoutMenuPageViewModel.cs" />
+    <Compile Include="ViewModels\FeedbackListItemViewModel.cs" />
+    <Compile Include="WebServices\GoogleMapsWebServiceController.cs" />
+    <Compile Include="Models\GeoCoordinate.cs" />
+    <Compile Include="WebServices\Contracts\Google\GoogleGeocodeContract.cs" />
+    <Compile Include="Enums\GoogleMapsTravelModes.cs" />
+    <Compile Include="WebServices\Contracts\Google\RoutesContract.cs" />
+    <Compile Include="WebServices\Contracts\Google\BoundsContract.cs" />
+    <Compile Include="WebServices\Contracts\Google\LocationContract.cs" />
+    <Compile Include="WebServices\Contracts\Google\StepContract.cs" />
+    <Compile Include="WebServices\Contracts\Google\LegContract.cs" />
+    <Compile Include="WebServices\Contracts\Google\PolylineContract.cs" />
+    <Compile Include="WebServices\Contracts\Google\DataValueContract.cs" />
+    <Compile Include="WebServices\Contracts\Google\ViewPortContract.cs" />
+    <Compile Include="UI\PathUpdateEventArgs.cs" />
+    <Compile Include="Location\AddressUpdatedEventArgs.cs" />
+    <Compile Include="ViewModels\ContactListItemViewModel.cs" />
+    <Compile Include="ViewModels\HeaderListItemViewModel.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="project.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Labels.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Labels.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Config.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Config.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ColorPalette.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ColorPalette.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

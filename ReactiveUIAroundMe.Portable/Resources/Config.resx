@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ClockSignalRUri" xml:space="preserve">
+    <value>http://clock.game-host.org/signalr</value>
+  </data>
+
+  <data name="BaseUrl" xml:space="preserve">
+    <value>http://x-change.com.au/</value>
+  </data>
+  <data name="TestUrl" xml:space="preserve">
+    <value>http://192.168.0.18:8080/</value>
+  </data>
+
+  <!-- google apis -->
+	
+  <data name="GoogleMapsApiUrl" xml:space="preserve">
+    <value>https://maps.googleapis.com/maps/api</value>
+  </data>
+  <data name="DirectionsUrl" xml:space="preserve">
+    <value>directions</value>
+  </data>
+  <data name="DirectionParamsUrl" xml:space="preserve">
+    <value>/json?origin={0}&amp;destination={1}&amp;key={2}</value>
+  </data>
+  <data name="GoogleApiKey" xml:space="preserve">
+    <value>AIzaSyB2_9NTMnPV3xFpNa75cqLw8pJlkbAKCOI</value>
+  </data>
+	
+  <data name="ConsumerKeyProduction" xml:space="preserve">
+    <value>_kaJMf52PiGU8z25MX8NgoafsYYa</value>
+  </data>
+  <data name="ConsumerSecretProduction" xml:space="preserve">
+    <value>xYGTefV60y0eOxFBpDxjDDX85yca</value>
+  </data>
+
+  <data name="AuthDeviceUrl" xml:space="preserve">
+    <value>/auth/device</value>
+  </data>
+  <data name="GetEReactiveUIAroundMesByLocationUrl" xml:space="preserve">
+    <value>/Anonymous/GetEReactiveUIAroundMesByLocation</value>
+  </data>
+  <data name="GetEReactiveUIAroundMeByIdUrl" xml:space="preserve">
+    <value>/Anonymous/GetEReactiveUIAroundMeById</value>
+  </data>
+  <data name="TokenEndPointUrl" xml:space="preserve">
+    <value>/token</value>
+  </data>
+</root>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>337423817772-lcssbeiijjjg65rdvbqj7f1i5ji7j0cd.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.337423817772-lcssbeiijjjg65rdvbqj7f1i5ji7j0cd</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA3KXarQU-sfjbsNGar_IHJalK-06EADNQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>337423817772</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.flusharcade.xchange</string>
+	<key>PROJECT_ID</key>
+	<string>xchange-161704</string>
+	<key>STORAGE_BUCKET</key>
+	<string>xchange-161704.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<false/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:337423817772:ios:1f8972a76a4ebe0a</string>
+	<key>DATABASE_URL</key>
+	<string>https://xchange-161704.firebaseio.com</string>
+</dict>
+</plist>

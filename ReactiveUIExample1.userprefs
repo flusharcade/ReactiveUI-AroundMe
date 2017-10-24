@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{CEB4EBE2-DC13-45FB-84F7-70E5BBACF4BD}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ReactiveUIExample1.Android/Views/HomeActivity.cs">
+    <Files>
+      <File FileName="ReactiveUIExample1.iOS/Views/HomePage.cs" Line="499" Column="2" />
+      <File FileName="ReactiveUIExample1.Android/Views/HomeActivity.cs" Line="1" Column="1" />
+      <File FileName="ReactiveUIExample1.Android/Views/LoginPage.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ReactiveUIExample1.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E94F0F56-B9AF-4072-8E75-1DC01808DF5A" />
+  <MonoDevelop.Ide.ItemProperties.ReactiveUIExample1.Android PreferredExecutionTarget="Android.Android-Emulator" />
+  <MultiItemStartupConfigurations />
+</Properties>
